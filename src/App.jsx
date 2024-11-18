@@ -2,7 +2,7 @@ import React from "react";
 import { useCallback, useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
-import logo from "../src/assets/icons/google.svg";
+import logo from "../src/assets/images/logo.png";
 function App() {
   const [init, setInit] = useState(false);
   useEffect(() => {
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="overflow-hidden relative h-dvh">
-        <img src={logo} alt="" className=" fixed top-10 left-10 z-20" />
+        <img src={logo} alt="" className=" fixed top-10 left-10 z-20 w-32" />
         {init && (
           <Particles
             id="tsparticles"
@@ -95,11 +95,11 @@ function App() {
             }}
           />
         )}
-        <section className="coming-soon h-dvh w-full flex items-center justify-center flex-col gap-5 bg-transparent">
-          <h1>Coming Soon</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex error
-            aliquid facere dolorum aspernatur ullam.
+        <section className="coming-soon h-dvh w-full flex items-center justify-center flex-col gap-5 bg-transparent px-2">
+          <h1 className="font-Quantify">Coming Soon</h1>
+          <p className="font-Quantify tracking-[2px]">
+            Proof of Training, Backed by Quantum Encryption, Secured by Smart
+            Data Contracts.
           </p>
         </section>
       </div>
