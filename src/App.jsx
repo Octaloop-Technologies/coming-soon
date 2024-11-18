@@ -98,8 +98,8 @@ function App() {
         <section className="coming-soon h-dvh w-full flex items-center justify-center flex-col gap-5 bg-transparent px-2">
           <h1 className="font-Quantify">Coming Soon</h1>
           <p className="font-Quantify tracking-[2px]">
-            Proof of Training, Backed by Quantum Encryption, Secured by Smart
-            Data Contracts.
+            Reinventing Blockchain with Proof of Training, AI Intelligence, and
+            Quantum Security
           </p>
           <p className="font-Quantify tracking-[2px] fixed bottom-10">
             ©Qryptum.com 2024. All Right Reserved
