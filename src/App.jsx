@@ -79,7 +79,7 @@ function App() {
                     enable: true,
                     area: 800,
                   },
-                  value: 80,
+                  value: 120,
                 },
                 opacity: {
                   value: 0.5,
@@ -100,6 +100,9 @@ function App() {
           <p className="font-Quantify tracking-[2px]">
             Proof of Training, Backed by Quantum Encryption, Secured by Smart
             Data Contracts.
+          </p>
+          <p className="font-Quantify tracking-[2px] fixed bottom-10">
+            ©Qryptum.com 2024. All Right Reserved
           </p>
         </section>
       </div>
