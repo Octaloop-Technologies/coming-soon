@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className="overflow-hidden relative h-dvh">
-        <img src={logo} alt="" className=" fixed top-10 left-10 z-20 w-32" />
+        <img src={logo} alt="" className=" fixed top-10 left-10 z-20 w-48" />
         {init && (
           <Particles
             id="tsparticles"
